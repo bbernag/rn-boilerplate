@@ -1,0 +1,46 @@
+{
+  "name": "reactNativeWestonTemplate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "prepare": "husky install",
+    "test": "jest",
+    "lint": "eslint --quiet --fix",
+    "pre-commit": "lint-staged"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.11",
+    "react": "17.0.2",
+    "react-native": "0.66.0",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-reanimated": "2.3.0-beta.2",
+    "react-native-router-flux": "^4.3.1",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.8.0",
+    "react-redux": "^7.2.5",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/runtime": "^7.15.4",
+    "@react-native-community/eslint-config": "^3.0.0",
+    "@testing-library/react-native": "^7.2.0",
+    "babel-jest": "^27.2.5",
+    "eslint": "^8.0.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-native": "^3.11.0",
+    "husky": "^7.0.2",
+    "jest": "^27.2.5",
+    "lint-staged": "^11.2.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "prettier": "^2.4.1",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

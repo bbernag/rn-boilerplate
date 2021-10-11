@@ -1,0 +1,8 @@
+{
+  "name": "react-native-weston-template",
+  "version": "0.0.5",
+  "description": "React Native Weston Template",
+  "repository": "git@github.com:bbernag/rn-boilerplate.git",
+  "author": "Berna <luisbernagl@gmail.com>",
+  "license": "MIT"
+}
