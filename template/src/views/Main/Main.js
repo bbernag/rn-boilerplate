@@ -8,6 +8,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import styles from './Main.styles';
+import Icon from 'react-native-vector-icons/dist/FontAwesome';
 
 const Section = ({children, title}) => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -44,11 +45,12 @@ function Main(props) {
       <View
         style={{
           backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          backgroundColor: 'red',
         }}>
         <Section title="Step One">
           Edit <Text style={styles.highlight}>App.js</Text> to change this
           screen and then come back to see your edits.
+        <Icon name="rocket" size={30} color="#900"></Icon>
+
         </Section>
         <Section title="See Your Changes">
           <ReloadInstructions />
